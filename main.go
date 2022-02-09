@@ -11,7 +11,7 @@ import (
 	"strings"
 )
 
-var apiBaseUrl = "https://www.googleapis.com/books/v1/volumes?q=isbn:"
+const apiBaseUrl = "https://www.googleapis.com/books/v1/volumes?q=isbn:"
 
 type Book struct {
 	Items      []Item
@@ -48,7 +48,8 @@ func check(e error) {
 }
 
 func main() {
-	fileName := flag.String("filename", "./temp/isbns.txt", "isbns text file")
+	fileName := flag.String("i", "./temp/isbns.txt", "isbns input text file")
+	outputFileName := flag.String("o", "./temp/output.json", "output json file")
 
 	if len(os.Args) < 2 {
 		log.Fatal("please provide a api key")
@@ -80,7 +81,6 @@ func main() {
 
 		var book Book
 		json.Unmarshal(body, &book)
-		println(string(body))
 
 		if len(book.Items) > 0 {
 			title := book.Items[0].VolumeInfo.Title
@@ -102,7 +102,7 @@ func main() {
 	content := strings.Replace(string(j), "\\u0026", "&", -1)
 	check(err)
 
-	f, err := os.Create("./temp/output.json")
+	f, err := os.Create(*outputFileName)
 	defer f.Close()
 
 	w := bufio.NewWriter(f)

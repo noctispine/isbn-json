@@ -10,5 +10,41 @@
   "author": "Abraham Silberschatz",
   "image": "http://books.google.com/books/content?id=s-TltAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "url": "http://books.google.com.tr/books?id=s-TltAEACAAJ&dq=isbn:978-1-119-32091-3&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "Go in Action",
+  "author": "Erik St. Martin",
+  "image": "http://books.google.com/books/content?id=nDszEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=nDszEAAAQBAJ&printsec=frontcover&dq=isbn:9781638352020&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "Programming JavaScript Applications",
+  "author": "Eric Elliott",
+  "image": "http://books.google.com/books/content?id=RUjnAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=RUjnAwAAQBAJ&printsec=frontcover&dq=isbn:9781491950258&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "Eloquent JavaScript, 3rd Edition",
+  "author": "Marijn Haverbeke",
+  "image": "http://books.google.com/books/content?id=p1v6DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=p1v6DwAAQBAJ&printsec=frontcover&dq=isbn:1593279507&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "You Don't Know JS: Up and Going",
+  "author": "Kyle Simpson",
+  "image": "http://books.google.com/books/content?id=PmELrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=PmELrgEACAAJ&dq=isbn:9781491924464&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "You Don't Know JS Yet",
+  "author": "Kyle Simpson",
+  "image": "http://books.google.com/books/content?id=Y_R5zQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=Y_R5zQEACAAJ&dq=isbn:9798621536459&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "You Don't Know JS: This and Object Prototypes",
+  "author": "Kyle Simpson",
+  "image": "http://books.google.com/books/content?id=mIG-oAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=mIG-oAEACAAJ&dq=isbn:9781491904152&hl=&cd=1&source=gbs_api"
  }
 ]
