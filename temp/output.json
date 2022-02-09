@@ -1,0 +1,14 @@
+[
+ {
+  "title": "Database System Concepts",
+  "author": "Henry F. Korth",
+  "image": "http://books.google.com/books/content?id=dc5HswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=dc5HswEACAAJ&dq=isbn:9780078022159&hl=&cd=1&source=gbs_api"
+ },
+ {
+  "title": "Operating System Concepts",
+  "author": "Abraham Silberschatz",
+  "image": "http://books.google.com/books/content?id=s-TltAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+  "url": "http://books.google.com.tr/books?id=s-TltAEACAAJ&dq=isbn:978-1-119-32091-3&hl=&cd=1&source=gbs_api"
+ }
+]
